@@ -198,3 +198,33 @@ ssh-keygen -t ed25519 -C "your_email@example.com"
 
 
 
+# skriv first koden sedan spara med (command + S) och sedan du kan kopiera för att lägga till github så här
+
+```bash
+git status
+
+```bash
+git commit -am 'Min andra commit'
+
+```bash
+git push origin main
+
+```bash
+# om vi skapar en ny file 
+
+```bash
+ny lile: ds2.py checka in
+
+```bash
+git add -A
+
+```bash
+git commit -am 'medelande'(vad vi ändrar)
+
+```bash
+git pull origin main
+
+```bash
+git push origin main
+
+```bash
