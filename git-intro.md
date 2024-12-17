@@ -196,20 +196,6 @@ Länk till anvisningar: [GitHub](https://docs.github.com/en/authentication/conne
 ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
 
-
-
-# skriv first koden sedan spara med (command + S) och sedan du kan kopiera för att lägga till github så här
-
-```bash
-git status
-
-```bash
-git commit -am 'Min andra commit'
-
-```bash
-git push origin main
-
-```bash
 # om vi skapar en ny file 
 
 ```bash
@@ -227,4 +213,44 @@ git pull origin main
 ```bash
 git push origin main
 
+# Benereta Hoxha 
+
+# om vi skriver en ny kod, skriv först koden och sedan till terminal skriv 
+
+```bash 
+python3 test.py
+
+# skriv first koden sedan spara med (command + S) och sedan du kan kopiera för att lägga till github så här
+
 ```bash
+git status
+
+```bash
+git commit -am 'Min andra commit'
+
+```bash
+git push
+
+# För att skriva bara git push istället för git push origin main 
+```bash
+git push --set-upstream origin main
+git push
+git push origin main
+
+#
+
+git status
+git add test.py
+git commit -m 'Låt det uppdateras'(medelande)
+git push 
+
+#kontroller varibles dattyp
+x = "Hej"
+print (x) # output: <class 'string'>
+
+y = 5
+print (y) # output <clas 'int'>
+
+
+# om du vill ta bort file
+git restore --staged namnpåfile
