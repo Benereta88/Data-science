@@ -22,3 +22,9 @@ x = 42
 y = str(x)
 print(y)
 print(type(y))
+
+#
+x = "123"
+y = 2
+z = int(x)
+print(z * y)
