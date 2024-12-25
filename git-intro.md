@@ -196,6 +196,8 @@ Länk till anvisningar: [GitHub](https://docs.github.com/en/authentication/conne
 ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
 
+# Benereta skriver här
+
 # om vi skapar en ny file 
 
 ```bash
@@ -254,3 +256,13 @@ print (y) # output <clas 'int'>
 
 # om du vill ta bort file
 git restore --staged namnpåfile
+
+# Konvertaera  sträng 
+
+int () konvertera till heltal  ex int(3.14)= 3
+float () konvertera till flytatal float (5) = 5.0
+str () konvertera till till sträng str(10) = "10"
+bool() konvertera till boolean  bool (0) = False
+
+# 
+
