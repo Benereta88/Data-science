@@ -7,3 +7,5 @@ def generete_password(legth=18):
 
 generete_password = generete_password(8)
 print("Generete_password:", generete_password)
+
+
