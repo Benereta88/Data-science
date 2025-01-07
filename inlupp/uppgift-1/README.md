@@ -20,8 +20,17 @@ pytest inlupp/exempel/test_exempel_1.py
 
 
  ### 
-pytest inlupp/uppgift-4/test_uppgift_4.py
+pytest inlupp/uppgift-5/test_uppgift_5.py
 
 python -m pytest .\inlupp\uppgift-3\test_uppgift-3.py  
 
  pytest inlupp/uppgift-1/test_uppgift_1.py
+
+ # om jag vill command + l
+
+# om jag vill pusha till git 
+ git add -A
+git commit -m "Din commit message här"
+git pull origin main
+# eller master beroende på vilken branch du jobbar på
+git push origin main
