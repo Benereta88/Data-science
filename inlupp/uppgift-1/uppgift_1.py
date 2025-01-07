@@ -10,3 +10,7 @@ def is_odd(x: int) -> bool:
     Returnerar True om talet är jämnt, annars False.
     """
     return x % 2 != 0
+
+   
+print(is_odd(2))
+  
