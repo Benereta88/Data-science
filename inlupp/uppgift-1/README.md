@@ -19,6 +19,9 @@ def is_odd(x: int) -> bool:
 pytest inlupp/exempel/test_exempel_1.py 
 
 
-python -m pytest .\inlupp\uppgift-4\test_uppgift-4.py  
+ ### 
+pytest inlupp/uppgift-4/test_uppgift-4.py
 
+python -m pytest .\inlupp\uppgift-1\test_uppgift-1.py  
 
+ pytest inlupp/uppgift-1/test_uppgift_1.py

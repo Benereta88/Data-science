@@ -15,4 +15,3 @@ def sum_list(numbers: List[int]) -> int:
     """
     pass # Ta bort denna rad och skriv din kod här
 ```
-inlupp/uppgift-1/test_uppgift-1.py . 
