@@ -20,7 +20,7 @@ pytest inlupp/exempel/test_exempel_1.py
 
 
  ### 
-pytest inlupp/uppgift-3/test_uppgift-3.py
+pytest inlupp/uppgift-2/test_uppgift-2.py
 
 python -m pytest .\inlupp\uppgift-3\test_uppgift-3.py  
 
