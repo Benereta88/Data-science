@@ -12,9 +12,10 @@ def max_in_list(numbers: list[int]) -> int:
     return max(numbers)  # Använder den inbyggda max() för att hitta största talet
 
 
-print(max_in_list([1, 2, 3])) == 3
-print(max_in_list([-5, 0, 5])) == 5
-print(max_in_list([10]))== 10
+print(max_in_list([1, 2, 3])) 
+print(max_in_list([-5, 0, 5])) 
+print(max_in_list([10]))
+
 
 
       

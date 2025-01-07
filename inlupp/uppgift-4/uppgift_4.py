@@ -3,19 +3,23 @@
  # Funktionen har en parameter n som är ett heltal och retunerar en lista med de första n fibonacci-talen.
 
 def fibonacci(n: int) -> list[int]:
-        if n <= 0:
-            return []
-        elif n == 1:
-            return [0]
-        elif n == 2:
-            return [0, 1]
-        
-        fib_list = [0, 1]
-        for i in range(2, n):
-            fib_list.append(fib_list[-1] + fib_list[-2])
-        
-        return fib_list
+    """
+    Retunerar en lista med de första n fibonacci-talen.
+    """
+    if n <= 0:
+        return []
+    elif n == 1:
+        return [0]
+    fib_sequence = [0, 1]
+    
+    while len(fib_sequence) < n:
+        next_value = fib_sequence[-1] + fib_sequence[-2]
+        fib_sequence.append(next_value)
 
+    return fib_sequence
+
+    
+ 
 print(fibonacci(5))
 print(fibonacci(0)) 
 print(fibonacci(1))
