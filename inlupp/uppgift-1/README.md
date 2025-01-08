@@ -20,7 +20,7 @@ pytest inlupp/exempel/test_exempel_1.py
 
 
  ### 
-pytest inlupp/uppgift-6/test_uppgift_6.py
+pytest inlupp/uppgift-7/test_uppgift_7.py
 
 python -m pytest .\inlupp\uppgift-3\test_uppgift-3.py  
 
@@ -30,7 +30,7 @@ python -m pytest .\inlupp\uppgift-3\test_uppgift-3.py
 
 # om jag vill pusha till git 
  git add -A
-git commit -m "Din commit message här"
+git commit -m "Inlämnings uppgift"
 git pull origin main
 # eller master beroende på vilken branch du jobbar på
 git push origin main
