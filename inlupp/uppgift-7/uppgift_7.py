@@ -7,7 +7,9 @@ def validate_password(legth=8):
     
     validate_password = ''.join(random.choices(string.ascii_lowercase + string.digits, k = legth))
     return validate_password
-
 validate_password = validate_password(8)
-print("Generete_password:", validate_password)
+
+print(validate_password("abc12345") == True)
+print(validate_password("short") == False)
+print(validate_password("password1") == True)
    
