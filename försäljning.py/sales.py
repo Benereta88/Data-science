@@ -1,6 +1,8 @@
 
 # Steg 1: Läs in data
 import pandas as pd
+# Steg 1.1: Installera openpyxl vi kör detta i terminalen
+#försäljning.py % /usr/local/bin/python3 -m pip install openpyxl Collecting openpyxl
 
 # Läs in data 
 df = pd.read_csv("sales.csv")
