@@ -2,14 +2,12 @@
 # Skapa en funktion fibonacci(n) som returnerar en lista med de första n Fibonacci-talen.
  # Funktionen har en parameter n som är ett heltal och retunerar en lista med de första n fibonacci-talen.
 
-def fibonacci(n: int) -> list[int]: # Funktionen 
+def fibonacci(n: int) -> list[int]: 
    
-    if n <= 0:
+    if n <= 0: 
         return []
     elif n == 1:
         return [0]
-    # elif n == 2:
-    #     return [0, 1]
     
     fib_sequence = [0, 1]
     iter = 2
