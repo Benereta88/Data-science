@@ -7,3 +7,4 @@ def multiplication_table(n, limit):
 
     print(multiplication_table(2, 3) == [2, 4, 6])
     print(multiplication_table(3, 5) == [3, 6, 9, 12, 15])
+    
