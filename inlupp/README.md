@@ -18,11 +18,7 @@ Jag har förberett med automatiska tester för varje uppgift. Dessa tester komme
 
 För att kunna testa lösningarna på dina uppgifter behöver du först installera `pytest`. Det gör du genom att köra kommandot:
 
-```bash
-pip install pytest
-```
-
-Alternativt kan du använda `pip3`:
+ Du använda `pip3`:
 
 ```bash
 pip3 install pytest
