@@ -8,8 +8,7 @@ def sum_list(numbers: list[int]) -> int: # Funktionen tar en parameter nummers a
 print (sum_list([1, 2, 3, 4, 5, 6]))
 print(sum_list([1, 2, 3]) == 6)
 print(sum_list([]) == 0)
-print(sum_list([-1, -1, 2]) == 0)
-    
+print(sum_list([-1, -1, 2]) ==21) 
 
 
 
