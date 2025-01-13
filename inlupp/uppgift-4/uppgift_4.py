@@ -8,12 +8,16 @@ def fibonacci(n: int) -> list[int]: # Funktionen
         return []
     elif n == 1:
         return [0]
+    # elif n == 2:
+    #     return [0, 1]
     
     fib_sequence = [0, 1]
+    iter = 2
     while len(fib_sequence) < n:
-        next_value = fib_sequence[-1] + fib_sequence[-2]
+        next_value = fib_sequence[iter-1] + fib_sequence[iter-2]
         fib_sequence.append(next_value)
-        return fib_sequence
+        iter += 1
+    return fib_sequence
 
 print(fibonacci(5) == [0, 1, 1, 2, 3])
 print(fibonacci(0) == []) 
