@@ -54,3 +54,6 @@ try:
         print("sales_summary.xlsx har skapats.")
 except FileNotFoundError:
     print("sales_summary.xlsx har INTE skapats.")
+
+    # Kör till terminalen ( open . ) så du kan oppna dina  file 
+    # Oppna excel och sedan sök till "arkiv"
