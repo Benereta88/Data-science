@@ -7,9 +7,5 @@
 # print(type(heltal))
 # print(type(flyttal))
 # print(type(text))
-# print(type(sanningsvärde))
+# print(type(sanningsvärde)
 
-x = "123" 
-y = 2
-z = int(x) * y
-print(z)
