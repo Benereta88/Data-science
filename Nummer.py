@@ -9,7 +9,7 @@
 # print(type(text))
 # print(type(sanningsvärde))
 
-x = "123"
+x = "123" 
 y = 2
 z = int(x) * y
 print(z)
